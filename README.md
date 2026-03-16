@@ -37,13 +37,3 @@ This is what happens when a user pastes vulnerable Python code into the Streamli
 *   **Groq API (Llama-3):** Groq relies on LPUs (Language Processing Units) rather than GPUs, operating at 500+ tokens a second. Llama-3 was selected because it's an open-weights model heavily trained on coding and logic tasks.
 *   **Streamlit:** Allows rapid prototyping of beautiful frontend applications entirely in Python, abstracting away React/CSS requirements.
 
-## 4. Why This Project Gets You Hired
-If asked in an interview, "Why did you build this?", your answer should focus on **Shift-Left Security**. 
-
-*"I built this because traditional SAST (Static Application Security Testing) tools produce too many false positives and overwhelm developers. Developers often use GPT-4 to fix their code, but GenAI hallucinates bad security advice. I designed this system to bridge that gap—a developer tool that has the speed of GenAI but the strict accuracy of enterprise security playbooks anchored by a local FAISS database."*
-
-You demonstrate competency in:
-1. Python Software Engineering
-2. Applied Machine Learning (Vectors & Embeddings)
-3. Prompt Engineering & RAG Architecture
-4. Domain Knowledge: Application Security (OWASP)
